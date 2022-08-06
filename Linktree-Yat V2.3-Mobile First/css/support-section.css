@@ -1,0 +1,41 @@
+#support-section{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+#support-section h2{
+    margin-bottom: 1rem;
+}
+
+#support-section img{
+    margin: 0.5rem 1rem;
+    
+}
+
+
+
+.support-desktop {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+   }
+
+   .support-desktop img {
+    height: 32px}
+
+
+
+   .support-media img{
+   
+    height: 32px;
+}
+
+
+
+@Media(min-width: 700px){
+    .support-desktop {
+        visibility: visible;
+       }
+    .support-media{
+        display: none;
+    }
+}

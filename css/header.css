@@ -1,0 +1,23 @@
+header {
+    background:none;
+    text-align: center;
+    margin-top: 2.5rem; 
+   }
+ 
+   header img {
+     border-radius: 50%;
+     width: 6rem;
+ 
+   }
+ 
+   header h3 {
+    
+     font-size: 1.7rem;
+   }
+ 
+   header p{
+     font-size: 1rem;
+     margin-left: 20%;
+     margin-right: 20%;
+   }
+ 

@@ -1,0 +1,37 @@
+#link-section {
+    margin-top: 3rem;
+}
+
+.links {
+    background-color: var(--main-brand-color);
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    padding: 1rem; 
+    border: 0.2rem solid var(--main-brand-color);
+    max-width: 50%;
+    border-radius: 1.5rem;
+  }
+
+  #link-section a {
+    text-align: center;
+    color: whitesmoke;
+    transition: color 0.5s; 
+    font-size: 1rem;
+  }
+  
+  #link-section img {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    width: 1.3rem;
+    height: 1.3rem;
+  
+  }
+  
+  #link-section a:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+  }
+  
